@@ -14,7 +14,7 @@ int main(){
         int currWater = w*ht;
         maxWater = max(maxWater,currWater);
 
-        height[lp]<height[rp]? lp++ : rp--;
+        range[lp]<ranget[rp]? lp++ : rp--;
     }
 
     cout<<"Max water = "<<maxWater<<endl;
